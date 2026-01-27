@@ -1128,6 +1128,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -2696,6 +2836,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2798,6 +3063,70 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Not sure if VDDA is the supply\nvoltage of the ESP please fact\ncheck"
+		(exclude_from_sim no)
+		(at 245.364 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e778e134-285e-43c4-be70-024a8a562af1")
+	)
+	(junction
+		(at 229.87 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "425bcd48-d47d-4146-8d1f-ae6d501e157f")
+	)
+	(junction
+		(at 229.87 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61141452-c357-440f-b3d0-07c3ff681d07")
+	)
+	(junction
+		(at 262.89 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73f55a21-a801-4509-85bd-9488c11b1dd2")
+	)
+	(junction
+		(at 218.44 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82785407-bcb4-4df7-a000-d8b2ed1c3187")
+	)
+	(junction
+		(at 241.3 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c264f588-5cb6-463d-874c-3c397033eb71")
+	)
+	(junction
+		(at 252.73 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3a08605-17c0-4d32-9e25-f4cf657c3aa6")
+	)
+	(junction
+		(at 166.37 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dad45fad-da04-4d21-b60b-eedf3853429d")
+	)
+	(junction
+		(at 241.3 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfda8a19-05f8-49ac-bab1-319258211d7c")
+	)
+	(junction
+		(at 252.73 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff113d24-f2fb-4ff9-9125-b58851014500")
+	)
 	(wire
 		(pts
 			(xy 191.77 24.13) (xy 191.77 26.67)
@@ -2807,6 +3136,26 @@
 			(type default)
 		)
 		(uuid "0826599b-92a0-4d8a-98d7-3277e2184c57")
+	)
+	(wire
+		(pts
+			(xy 163.83 24.13) (xy 166.37 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b736b7b-04ed-493b-8b76-f2c1dcc2daef")
+	)
+	(wire
+		(pts
+			(xy 252.73 27.94) (xy 262.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23317838-9f89-4b45-971b-f58b99e0f5ed")
 	)
 	(wire
 		(pts
@@ -2820,6 +3169,96 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 27.94) (xy 241.3 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f78fd1-5dee-4fe3-9823-ff13bfab63e4")
+	)
+	(wire
+		(pts
+			(xy 252.73 22.86) (xy 262.89 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6459a373-cc11-41f7-a241-7aa8312492f7")
+	)
+	(wire
+		(pts
+			(xy 218.44 20.32) (xy 218.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86486473-fd7c-440c-b9f7-f798a49cf4b9")
+	)
+	(wire
+		(pts
+			(xy 218.44 22.86) (xy 229.87 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2473bdf-fc1c-4728-a0be-c6a4d8e88fd4")
+	)
+	(wire
+		(pts
+			(xy 163.83 26.67) (xy 166.37 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a903905c-6562-40ca-a435-91dee3505d44")
+	)
+	(wire
+		(pts
+			(xy 229.87 22.86) (xy 241.3 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82752df-e6ae-4869-b345-53fdd4c97b5d")
+	)
+	(wire
+		(pts
+			(xy 218.44 27.94) (xy 229.87 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b83b38f5-eda6-462e-8d1f-bab6d836f978")
+	)
+	(wire
+		(pts
+			(xy 241.3 27.94) (xy 252.73 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc20e110-898b-44ec-8645-d0a2952afe73")
+	)
+	(wire
+		(pts
+			(xy 262.89 27.94) (xy 262.89 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59e46f1-c32e-473b-935b-f1d678a4f8a1")
+	)
+	(wire
+		(pts
 			(xy 199.39 15.24) (xy 191.77 15.24)
 		)
 		(stroke
@@ -2827,6 +3266,126 @@
 			(type default)
 		)
 		(uuid "caef5948-d996-450c-87e6-95ec9d242957")
+	)
+	(wire
+		(pts
+			(xy 241.3 22.86) (xy 252.73 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbddef32-74e2-4807-8768-8e91073410ee")
+	)
+	(wire
+		(pts
+			(xy 166.37 24.13) (xy 166.37 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc18ce35-48aa-46eb-8b63-3c006a1ea139")
+	)
+	(wire
+		(pts
+			(xy 166.37 19.05) (xy 166.37 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2807bd-14f9-4583-88a0-7906395214b3")
+	)
+	(label "VDDA"
+		(at 262.89 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25dbaee2-d299-40cc-b4f7-c168611fae87")
+	)
+	(label "VDDA"
+		(at 166.37 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a5f5a79-84be-43c0-9312-900e5d0c4af0")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 252.73 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13efbbe3-540a-4991-9438-7950a7499179")
+		(property "Reference" "C8"
+			(at 255.27 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 255.27 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 252.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 252.73 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f81b500-01e9-4734-8d74-60a88cc36eab")
+		)
+		(pin "2"
+			(uuid "51c601a8-d528-43fd-8555-55b8a8934cea")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "ESP32-S3:ESP32-S3")
@@ -3203,6 +3762,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 229.87 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b05a869-30ef-4792-9dba-1bd02b7e92e0")
+		(property "Reference" "C4"
+			(at 232.41 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 232.41 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 229.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60513603-26be-421f-af5a-8a6e74aa3808")
+		)
+		(pin "2"
+			(uuid "7638cd35-7b0b-469c-ae14-74097b993430")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 15.24 90)
 		(unit 1)
@@ -3264,6 +3893,76 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 262.89 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dbce440-e5ef-486e-ad73-e03e5598b29c")
+		(property "Reference" "C9"
+			(at 265.43 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 265.43 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 262.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a04a8e44-a24b-40a7-9ab2-e70d2f60e8dc")
+		)
+		(pin "2"
+			(uuid "73206ac0-b511-4cdc-b8c1-2e0a073203b7")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3332,6 +4031,72 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 218.44 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83481212-654c-4352-bc09-775a482570ab")
+		(property "Reference" "#PWR014"
+			(at 218.44 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 218.44 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84ee8a94-8871-4053-b4a3-5512af36e566")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3477,6 +4242,146 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 218.44 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb615dda-e238-4611-85ee-80e994bd3fc8")
+		(property "Reference" "C3"
+			(at 220.98 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 220.98 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ce836f0-99d9-4abc-b094-4d3b3519fe88")
+		)
+		(pin "2"
+			(uuid "aaa67c31-dc9a-4990-8830-fd72b84828dc")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 241.3 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8438d5e-7174-4244-bb2c-337d45074495")
+		(property "Reference" "C7"
+			(at 243.84 24.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 243.84 26.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 241.3 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b71aff8-e197-40f3-a0f6-f52bb1214804")
+		)
+		(pin "2"
+			(uuid "7aa92df7-980f-4477-b179-7bbb3f0e4798")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C7")
 					(unit 1)
 				)
 			)
