@@ -5,6 +5,293 @@
 	(uuid "98426c4a-6d0f-44a5-8fda-00a4c13c23c0")
 	(paper "A3")
 	(lib_symbols
+		(symbol "0402ESDA-MLP1:0402ESDA-MLP1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "0402ESDA-MLP1"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey_Part_Number" "283-0402ESDA-MLP1CT-ND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Eaton"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "0402 Eaton"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0402 Eaton"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "0402ESDA-MLP1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "0402ESDA-MLP1_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0.254 1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -0.762) (xy -1.27 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.27 0.762) (xy 1.27 -0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 0.762)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -3401,7 +3688,7 @@
 		(uuid 414086e8-1ef9-42de-8dc0-385cb91ad630)
 	)
 	(rectangle
-		(start 20.32 17.78)
+		(start 13.97 17.78)
 		(end 120.65 95.25)
 		(stroke
 			(width 0)
@@ -3483,6 +3770,12 @@
 		(uuid "3f97c036-6427-4402-b80c-006188b4a112")
 	)
 	(junction
+		(at 106.68 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40b6f134-4b1a-455b-adac-ce2d056223dd")
+	)
+	(junction
 		(at 106.68 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3501,22 +3794,40 @@
 		(uuid "4c26c0dc-f7c2-4b96-a49e-bba3965e041c")
 	)
 	(junction
+		(at 30.48 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52d03069-226d-40d2-8feb-638837a0ec9a")
+	)
+	(junction
 		(at 97.79 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55dfda2c-b176-4739-ab63-d33e7f61ef46")
 	)
 	(junction
-		(at 100.33 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66d36921-70ef-4507-8130-0ecd72f0b3e7")
-	)
-	(junction
 		(at 269.24 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aa050ee-765f-4768-937a-b6a44ed09249")
+	)
+	(junction
+		(at 102.87 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90df4a60-c9b9-4b02-8125-40c94cf545ac")
+	)
+	(junction
+		(at 27.94 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d31b03a1-8a6e-4434-9db3-a3f0bf7f4579")
+	)
+	(junction
+		(at 111.76 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4e1a2c3-27eb-470e-b325-b9aa3665bc1c")
 	)
 	(junction
 		(at 97.79 127)
@@ -3535,6 +3846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8cb3768-79ee-41f8-98b8-3869d0049d7c")
+	)
+	(junction
+		(at 25.4 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe3a31b8-3b3f-42cc-93a7-a8b9bed3431d")
 	)
 	(no_connect
 		(at 81.28 35.56)
@@ -3618,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 35.56) (xy 100.33 35.56)
+			(xy 87.63 35.56) (xy 102.87 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3678,6 +3995,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 49.53) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abd9d8f-79f2-4104-8811-48d24ac29c6d")
+	)
+	(wire
+		(pts
 			(xy 154.94 86.36) (xy 154.94 83.82)
 		)
 		(stroke
@@ -3718,13 +4045,33 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 53.34) (xy 40.64 53.34)
+			(xy 39.37 53.34) (xy 40.64 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "26db431d-745e-482d-8bf7-03ccdbecfed9")
+	)
+	(wire
+		(pts
+			(xy 102.87 55.88) (xy 106.68 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271044bf-f0b3-4604-b0bb-0189c4f18d49")
+	)
+	(wire
+		(pts
+			(xy 27.94 71.12) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "288a0f61-eeb9-41d9-8a7d-7b64f8b19ad6")
 	)
 	(wire
 		(pts
@@ -3778,7 +4125,27 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 43.18) (xy 22.86 45.72)
+			(xy 25.4 66.04) (xy 25.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e059957-811a-4799-8a34-be09f0eac60a")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 102.87 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b9636c-6d22-41e6-86be-61c375db54ca")
+	)
+	(wire
+		(pts
+			(xy 22.86 43.18) (xy 22.86 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3795,6 +4162,26 @@
 			(type default)
 		)
 		(uuid "48779291-a82e-43be-b4c8-cee56bf67435")
+	)
+	(wire
+		(pts
+			(xy 22.86 46.99) (xy 30.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abc67b1-843d-45c7-9a28-987892c3d250")
+	)
+	(wire
+		(pts
+			(xy 25.4 49.53) (xy 25.4 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2ceb93-b086-4f43-983e-bae6604ea003")
 	)
 	(wire
 		(pts
@@ -3815,6 +4202,46 @@
 			(type default)
 		)
 		(uuid "4d0093cf-9f79-449f-874c-3b4df8ffe401")
+	)
+	(wire
+		(pts
+			(xy 102.87 35.56) (xy 111.76 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d24d62d-855d-487a-9c21-41f74b97e39b")
+	)
+	(wire
+		(pts
+			(xy 102.87 35.56) (xy 102.87 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e557835-6082-41e8-adf6-5516cd88966f")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 31.75 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb504e0-f6c2-4441-af78-471818efa683")
+	)
+	(wire
+		(pts
+			(xy 30.48 45.72) (xy 40.64 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f70d014-7d0f-4974-956f-30d8ca4b6cda")
 	)
 	(wire
 		(pts
@@ -3878,13 +4305,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 60.96) (xy 35.56 60.96)
+			(xy 30.48 45.72) (xy 30.48 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "672c445d-1aae-445b-a588-5da39264c7a4")
+		(uuid "651d35d7-67fe-4a16-9c21-7cf6958b75ac")
 	)
 	(wire
 		(pts
@@ -3905,16 +4332,6 @@
 			(type default)
 		)
 		(uuid "692545fe-9c7b-4ad8-9898-63e9c8f2d621")
-	)
-	(wire
-		(pts
-			(xy 100.33 35.56) (xy 110.49 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c44d897-5899-40fb-b99a-c65eaac3863b")
 	)
 	(wire
 		(pts
@@ -3968,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 48.26) (xy 40.64 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7baecc32-5a8e-4823-b4fe-8a6f249d952c")
+	)
+	(wire
+		(pts
 			(xy 101.6 110.49) (xy 101.6 114.3)
 		)
 		(stroke
@@ -3978,7 +4405,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 60.96) (xy 35.56 64.77)
+			(xy 40.64 60.96) (xy 40.64 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4015,6 +4442,26 @@
 			(type default)
 		)
 		(uuid "8be65019-37e6-4087-af98-e2de8ae1e3df")
+	)
+	(wire
+		(pts
+			(xy 30.48 66.04) (xy 30.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921a0e81-6df1-461f-8817-971a72265aca")
+	)
+	(wire
+		(pts
+			(xy 30.48 46.99) (xy 30.48 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b4b974-7be6-4f9d-9c37-853a9da5b172")
 	)
 	(wire
 		(pts
@@ -4148,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 55.88) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d02525-ac44-4930-aafb-51f4a8ae8b47")
+	)
+	(wire
+		(pts
 			(xy 257.81 41.91) (xy 265.43 41.91)
 		)
 		(stroke
@@ -4175,6 +4632,16 @@
 			(type default)
 		)
 		(uuid "bf43779a-527c-4607-98e5-5a356c3abd73")
+	)
+	(wire
+		(pts
+			(xy 22.86 49.53) (xy 25.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ff8ff3-361c-48f6-b5a5-feb57385c9c0")
 	)
 	(wire
 		(pts
@@ -4258,6 +4725,36 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 55.88) (xy 106.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66db98b-60f9-47d0-9867-8d6adabe5e32")
+	)
+	(wire
+		(pts
+			(xy 111.76 35.56) (xy 113.03 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d690e984-2121-45de-af8e-f9cd15386ebb")
+	)
+	(wire
+		(pts
+			(xy 25.4 71.12) (xy 27.94 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d89bf04e-08c9-4f80-8687-d88a13d0dcdb")
+	)
+	(wire
+		(pts
 			(xy 137.16 73.66) (xy 137.16 76.2)
 		)
 		(stroke
@@ -4328,6 +4825,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 55.88) (xy 111.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f429701f-3dbd-4ac1-8e2b-44b311e28c52")
+	)
+	(wire
+		(pts
 			(xy 85.09 33.02) (xy 85.09 30.48)
 		)
 		(stroke
@@ -4377,7 +4884,7 @@
 		(uuid "5a0fe6d6-6085-478a-9515-fb7df0862842")
 	)
 	(label "USB_DP"
-		(at 40.64 45.72 180)
+		(at 22.86 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4417,7 +4924,7 @@
 		(uuid "88e5f54a-b492-4174-b03e-8dcc55283905")
 	)
 	(label "5V_USB"
-		(at 110.49 35.56 0)
+		(at 113.03 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4447,7 +4954,7 @@
 		(uuid "aa7cb246-a89f-4d57-94f9-21ba9c87ecc0")
 	)
 	(label "USB_DN"
-		(at 40.64 48.26 180)
+		(at 22.86 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4487,12 +4994,12 @@
 		(uuid "e9b65369-4650-4faf-b91a-83d413fae85d")
 	)
 	(label "VBUS"
-		(at 33.02 53.34 0)
+		(at 39.37 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "eb3956e0-c614-48f5-a241-dbe336eec708")
 	)
@@ -5194,7 +5701,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 40.64 0)
+		(at 106.68 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5203,7 +5710,7 @@
 		(fields_autoplaced yes)
 		(uuid "383af83b-f75c-4e61-b8e0-e06ae710f4b5")
 		(property "Reference" "#PWR0125"
-			(at 100.33 46.99 0)
+			(at 106.68 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5212,7 +5719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 45.72 0)
+			(at 106.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 40.64 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 40.64 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5745,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 40.64 0)
+			(at 106.68 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,6 +6336,186 @@
 		)
 	)
 	(symbol
+		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
+		(at 30.48 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f62b2ee-98ea-48cb-82e8-4ee16be4536d")
+		(property "Reference" "D10"
+			(at 30.988 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402ESDA-MLP1"
+			(at 32.766 56.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "283-0402ESDA-MLP1CT-ND"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Eaton"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 Eaton"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 Eaton"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402ESDA-MLP1"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
+			(at 30.48 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbb8a3f7-0c3e-45b3-8218-3c0faac5ce45")
+		)
+		(pin "1"
+			(uuid "349ae2c9-e522-4ae7-aa5b-1cdf846ca3db")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 137.16 80.01 270)
 		(unit 1)
@@ -6283,8 +6970,188 @@
 		)
 	)
 	(symbol
+		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
+		(at 102.87 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90f2c0f3-1e10-424d-8555-458343229626")
+		(property "Reference" "D11"
+			(at 104.394 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402ESDA-MLP1"
+			(at 105.664 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "283-0402ESDA-MLP1CT-ND"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Eaton"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 Eaton"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 Eaton"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402ESDA-MLP1"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
+			(at 102.87 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2ccc857-d978-447b-83f2-265d70d7b2bf")
+		)
+		(pin "1"
+			(uuid "a738dfb3-277e-48cb-9cba-17b4aa65e70a")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
-		(at 100.33 38.1 0)
+		(at 111.76 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6293,7 +7160,7 @@
 		(fields_autoplaced yes)
 		(uuid "97b938e9-3b50-496e-b545-e438caac765f")
 		(property "Reference" "C4"
-			(at 102.87 36.8362 0)
+			(at 114.3 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +7169,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 102.87 39.3762 0)
+			(at 114.3 39.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +7178,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 38.1 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +7187,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 38.1 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +7196,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 100.33 38.1 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,6 +7370,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 27.94 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eefadde-721c-45a4-b3aa-1343547c2835")
+		(property "Reference" "#PWR010"
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "541585bf-6d3b-475b-8bd8-8588c9768ea2")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 97.79 140.97 0)
 		(unit 1)
@@ -6650,7 +7583,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 45.72 0)
+		(at 22.86 34.29 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6659,7 +7592,7 @@
 		(fields_autoplaced yes)
 		(uuid "a614df81-8dea-4a8d-b483-d3e20f475aff")
 		(property "Reference" "#PWR0122"
-			(at 22.86 52.07 0)
+			(at 22.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,16 +7601,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 46.9899 0)
+			(at 25.4 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 45.72 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +7619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 45.72 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +7628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 45.72 0)
+			(at 22.86 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,6 +7802,186 @@
 		)
 	)
 	(symbol
+		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
+		(at 25.4 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5614840-8aec-4254-b24c-72165fefdf19")
+		(property "Reference" "D9"
+			(at 20.574 57.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0402ESDA-MLP1"
+			(at 22.098 60.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "283-0402ESDA-MLP1CT-ND"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Eaton"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 Eaton"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 Eaton"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402ESDA-MLP1"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
+			(at 25.4 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "067a5971-036d-4892-a059-bed452e89065")
+		)
+		(pin "1"
+			(uuid "62c20ef3-b122-4202-8279-b520e4648a0b")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 107.95 135.89 270)
 		(unit 1)
@@ -7003,7 +8116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 64.77 0)
+		(at 40.64 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7012,7 +8125,7 @@
 		(fields_autoplaced yes)
 		(uuid "e85cb51f-7b88-4dcc-9ecd-c8da77c2c2ae")
 		(property "Reference" "#PWR0123"
-			(at 35.56 71.12 0)
+			(at 40.64 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,7 +8134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 69.85 0)
+			(at 40.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,7 +8142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 64.77 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7038,7 +8151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 64.77 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7047,7 +8160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 64.77 0)
+			(at 40.64 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
