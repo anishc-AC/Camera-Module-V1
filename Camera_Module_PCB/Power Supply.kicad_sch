@@ -49,12 +49,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -69,16 +70,6 @@
 				)
 			)
 			(property "MF" "Eaton"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4883,7 +4874,7 @@
 		)
 		(uuid "5a0fe6d6-6085-478a-9515-fb7df0862842")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 22.86 46.99 180)
 		(effects
 			(font
@@ -4933,7 +4924,7 @@
 		)
 		(uuid "9326b642-edeb-43b5-99d0-cf695fec32bd")
 	)
-	(label "USB_DN"
+	(label "USB_D-"
 		(at 81.28 48.26 0)
 		(effects
 			(font
@@ -4953,7 +4944,7 @@
 		)
 		(uuid "aa7cb246-a89f-4d57-94f9-21ba9c87ecc0")
 	)
-	(label "USB_DN"
+	(label "USB_D-"
 		(at 22.86 49.53 180)
 		(effects
 			(font
@@ -4973,7 +4964,7 @@
 		)
 		(uuid "cc320b2b-049b-4658-8212-1b5fced314be")
 	)
-	(label "USB_DP"
+	(label "USB_D+"
 		(at 81.28 45.72 0)
 		(effects
 			(font
