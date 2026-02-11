@@ -2210,6 +2210,328 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ME6206A15XG:ME6206A15XG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ME6206A15XG:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/ME6206A15XG/236149.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Output Type:Fixed Voltage - Supply:6V Output Voltage:1.5V Output Voltage:1.5V Output Current:100mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:200mV@(20mA) standby current:8uA Features:Over Current Protection；Short Circuit Protection O"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "ME6206A15XG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MICRONE(南京微盟)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C236709"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1.5V 100mA 6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ME6206A15XG_1_0"
+				(rectangle
+					(start 0 5.08)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ME6206A28XG:ME6206A28XG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ME6206A28XG:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/ME6206A28XG/236142.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Output Type:Fixed Voltage - Supply:6V Output Voltage:2.8V Output Voltage:2.8V Output Current:300mA Power Supply Rejection Ratio (PSRR):50dB@(1kHz) Voltage Dropout:380mV@(200mA) standby current:8uA Features:Short Circuit Protection；Over Current Protection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "ME6206A28XG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MICRONE(南京微盟)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C236702"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "2.8V 300mA 6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ME6206A28XG_1_0"
+				(rectangle
+					(start -7.62 3.81)
+					(end 7.62 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SS-52400-002:SS-52400-002"
 			(pin_names
 				(offset 1.016)
@@ -3749,10 +4071,28 @@
 		(uuid "f46c71c1-d855-4d56-9413-0a40f43a2950")
 	)
 	(junction
+		(at 29.21 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "134c3172-72cb-4f06-9719-9eaab69a67a3")
+	)
+	(junction
+		(at 31.75 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2addc900-beb3-4453-bc7b-a2f83d9bab2b")
+	)
+	(junction
 		(at 97.79 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3139c255-0e87-458b-94e8-17553011f238")
+	)
+	(junction
+		(at 34.29 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3493b9c5-8da6-4d50-a6ce-79355c5cd99e")
 	)
 	(junction
 		(at 101.6 124.46)
@@ -3785,6 +4125,12 @@
 		(uuid "4c26c0dc-f7c2-4b96-a49e-bba3965e041c")
 	)
 	(junction
+		(at 43.18 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4df23244-18c1-40e0-b70d-00d2a098135e")
+	)
+	(junction
 		(at 30.48 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3809,10 +4155,22 @@
 		(uuid "90df4a60-c9b9-4b02-8125-40c94cf545ac")
 	)
 	(junction
+		(at 38.1 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b654bbad-0caa-4d4d-97ea-c07ab1b5c10a")
+	)
+	(junction
 		(at 27.94 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d31b03a1-8a6e-4434-9db3-a3f0bf7f4579")
+	)
+	(junction
+		(at 33.02 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d58138fd-b025-4c73-9fae-09c2fb421761")
 	)
 	(junction
 		(at 111.76 35.56)
@@ -3996,6 +4354,26 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 190.5) (xy 29.21 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d03a671-8e04-4455-8e92-bdb3f9865345")
+	)
+	(wire
+		(pts
+			(xy 68.58 163.83) (xy 73.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb03760-a679-43d6-aa34-25d32485b3e7")
+	)
+	(wire
+		(pts
 			(xy 154.94 86.36) (xy 154.94 83.82)
 		)
 		(stroke
@@ -4013,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "167dec96-afd7-4a7b-8673-fc41ffa97a40")
+	)
+	(wire
+		(pts
+			(xy 43.18 165.1) (xy 48.26 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d46c10-19ef-41ea-969c-90515be29247")
 	)
 	(wire
 		(pts
@@ -4066,6 +4454,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 162.56) (xy 44.45 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b36cebd-7ddd-41fd-a1bf-cd53f90bbf3e")
+	)
+	(wire
+		(pts
 			(xy 273.05 39.37) (xy 273.05 41.91)
 		)
 		(stroke
@@ -4096,6 +4494,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 185.42) (xy 29.21 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367675b9-5de5-4e85-a26b-4e32003d3786")
+	)
+	(wire
+		(pts
 			(xy 260.35 66.04) (xy 260.35 63.5)
 		)
 		(stroke
@@ -4113,6 +4521,16 @@
 			(type default)
 		)
 		(uuid "3a34bc51-4b7c-4da5-9b8f-6b3c62b5a59e")
+	)
+	(wire
+		(pts
+			(xy 50.8 180.34) (xy 43.18 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bdeadb2-b3d0-4b90-b48c-903596a6c34d")
 	)
 	(wire
 		(pts
@@ -4153,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "48779291-a82e-43be-b4c8-cee56bf67435")
+	)
+	(wire
+		(pts
+			(xy 29.21 185.42) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ecad06-36b8-459c-afea-c5659b4f9ddb")
 	)
 	(wire
 		(pts
@@ -4206,6 +4634,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 193.04) (xy 33.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e38a497-8d97-4729-99c1-4abd3b09529e")
+	)
+	(wire
+		(pts
 			(xy 102.87 35.56) (xy 102.87 36.83)
 		)
 		(stroke
@@ -4246,6 +4684,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 165.1) (xy 31.75 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53479e12-b777-47e2-a5be-42801aa29ca9")
+	)
+	(wire
+		(pts
 			(xy 40.64 40.64) (xy 34.29 40.64)
 		)
 		(stroke
@@ -4256,6 +4704,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 182.88) (xy 43.18 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57211af7-35aa-4f2e-946b-8e9a196916b0")
+	)
+	(wire
+		(pts
 			(xy 269.24 76.2) (xy 269.24 77.47)
 		)
 		(stroke
@@ -4263,6 +4721,26 @@
 			(type default)
 		)
 		(uuid "577abb9f-d2dc-4989-949b-54a55bec0382")
+	)
+	(wire
+		(pts
+			(xy 33.02 193.04) (xy 38.1 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58dc7158-0894-4697-939a-78ec864e8e93")
+	)
+	(wire
+		(pts
+			(xy 73.66 162.56) (xy 73.66 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb15199-28a8-428d-b55d-bb84e96dfbe0")
 	)
 	(wire
 		(pts
@@ -4356,6 +4834,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 193.04) (xy 38.1 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "792c7adb-d2c4-42a8-bda4-ec66a28800d7")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 43.18 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "798f19e1-038f-403f-b1af-ce8af1d881eb")
+	)
+	(wire
+		(pts
 			(xy 261.62 55.88) (xy 261.62 53.34)
 		)
 		(stroke
@@ -4393,6 +4891,16 @@
 			(type default)
 		)
 		(uuid "80c21088-94b1-402d-8a38-49afb41ae681")
+	)
+	(wire
+		(pts
+			(xy 31.75 170.18) (xy 31.75 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "837875bb-ec33-4183-9dce-d1058cb77bf3")
 	)
 	(wire
 		(pts
@@ -4596,6 +5104,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 162.56) (xy 44.45 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb10a9aa-0006-4265-97e4-d70aa1354a6d")
+	)
+	(wire
+		(pts
 			(xy 257.81 41.91) (xy 265.43 41.91)
 		)
 		(stroke
@@ -4626,6 +5144,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 185.42) (xy 50.8 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4208055-dd13-431e-8c88-8a3d5e535f7f")
+	)
+	(wire
+		(pts
 			(xy 22.86 49.53) (xy 25.4 49.53)
 		)
 		(stroke
@@ -4633,6 +5161,16 @@
 			(type default)
 		)
 		(uuid "c4ff8ff3-361c-48f6-b5a5-feb57385c9c0")
+	)
+	(wire
+		(pts
+			(xy 43.18 180.34) (xy 43.18 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d5cf75-3bec-4d22-8254-d61a61b4e6e8")
 	)
 	(wire
 		(pts
@@ -4653,6 +5191,16 @@
 			(type default)
 		)
 		(uuid "c83d0f88-6190-40ec-a36a-24b928605b0c")
+	)
+	(wire
+		(pts
+			(xy 38.1 186.69) (xy 38.1 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca095a28-3fe4-4a0f-8ca8-9b3f6d7cdfc5")
 	)
 	(wire
 		(pts
@@ -4703,6 +5251,26 @@
 			(type default)
 		)
 		(uuid "ce07499b-2091-46f0-adae-c25ba6c64d57")
+	)
+	(wire
+		(pts
+			(xy 43.18 170.18) (xy 43.18 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d085aa54-dec6-42be-b9d1-00fc8e33217b")
+	)
+	(wire
+		(pts
+			(xy 31.75 171.45) (xy 34.29 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18a0c01-e0ad-418e-bc4c-0134e6ec1917")
 	)
 	(wire
 		(pts
@@ -4823,6 +5391,16 @@
 			(type default)
 		)
 		(uuid "f429701f-3dbd-4ac1-8e2b-44b311e28c52")
+	)
+	(wire
+		(pts
+			(xy 34.29 171.45) (xy 43.18 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c4c0bf-1673-400e-a295-9cc8d32aa319")
 	)
 	(wire
 		(pts
@@ -4954,6 +5532,16 @@
 		)
 		(uuid "b5828889-9e18-4855-a4ac-915da9b32bea")
 	)
+	(label "AVDD_2V8"
+		(at 73.66 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4996f8f-0cf8-48dc-87e2-44cccc53727c")
+	)
 	(label "CHG_EN"
 		(at 262.89 58.42 0)
 		(effects
@@ -5013,6 +5601,16 @@
 			(justify left bottom)
 		)
 		(uuid "f299041b-4228-4199-b788-c6653a323fdd")
+	)
+	(label "VDD_1V5"
+		(at 43.18 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2f1b4ac-f806-4c02-8bd2-304855159fa6")
 	)
 	(symbol
 		(lib_id "Device:LED")
@@ -5536,6 +6134,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 44.45 158.75 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2976c038-4d9a-4796-8f4d-e6a384871ad3")
+		(property "Reference" "#PWR033"
+			(at 44.45 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aac6dbb4-d2fc-4183-9822-a8dc5e943cc7")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 137.16 69.85 0)
 		(unit 1)
@@ -5606,6 +6270,72 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 31.75 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c09e6d-5579-4163-99aa-b3cded4238f4")
+		(property "Reference" "#PWR036"
+			(at 31.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 31.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 31.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a55e354-7023-4dd9-8e76-18534cee6ca2")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6178,6 +6908,76 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 31.75 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d91bbff-5b31-403a-87c2-f4fae6fcc920")
+		(property "Reference" "C22"
+			(at 34.29 166.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 34.29 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ee57ee0-0448-4a02-be2d-6df297f7e3f5")
+		)
+		(pin "1"
+			(uuid "bfae9836-b75f-4718-888d-f7da5050f4e2")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 97.79 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6668,6 +7468,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 34.29 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60c0858b-e348-43dc-9ead-f0d5bfcdcc2e")
+		(property "Reference" "#PWR038"
+			(at 34.29 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fb5a32f-c62a-42d5-ba74-ead896107319")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 273.05 39.37 0)
 		(unit 1)
@@ -6735,6 +7600,203 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 179.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7957f22b-9b2b-4d25-bb46-8bdc67395479")
+		(property "Reference" "#PWR034"
+			(at 43.18 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ad4a1c4-5e7b-44e6-9e05-8486c3d82406")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 33.02 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a14cdee-ae9a-490e-bc8b-07f0d3df7b96")
+		(property "Reference" "#PWR037"
+			(at 33.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6492275f-8069-4005-bd1a-b23e584076e5")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 29.21 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d5e2d25-6173-401b-bf97-3a2cd6986ad2")
+		(property "Reference" "#PWR035"
+			(at 29.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 29.21 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 29.21 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "938d1fbb-bde3-49a8-bc62-220d5bfa9ff0")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7135,6 +8197,76 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 29.21 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94e498e4-fc92-46d7-b4ca-03d899d7064a")
+		(property "Reference" "C20"
+			(at 31.75 186.6962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 31.75 189.2362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 29.21 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5578afc5-22a1-4333-9598-eef3d7961d2b")
+		)
+		(pin "1"
+			(uuid "a7204590-38a1-4259-bc09-f7837d4a0ef2")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7973,6 +9105,262 @@
 		)
 	)
 	(symbol
+		(lib_id "ME6206A28XG:ME6206A28XG")
+		(at 58.42 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdaf59dc-db64-4f27-81fd-619eba66e919")
+		(property "Reference" "U7"
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ME6206A28XG"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ME6206A28XG:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/ME6206A28XG/236142.html"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Output Type:Fixed Voltage - Supply:6V Output Voltage:2.8V Output Voltage:2.8V Output Current:300mA Power Supply Rejection Ratio (PSRR):50dB@(1kHz) Voltage Dropout:380mV@(200mA) standby current:8uA Features:Short Circuit Protection；Over Current Protection"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ME6206A28XG"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICRONE(南京微盟)"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C236702"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "2.8V 300mA 6V"
+			(at 58.42 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "854af5f6-d2aa-4fbb-a290-01dc89a6a417")
+		)
+		(pin "1"
+			(uuid "a4215bcb-86e2-4a5e-b267-974bc686a6d1")
+		)
+		(pin "2"
+			(uuid "08d372df-d238-4c9e-b877-983b58b56951")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6dfcc40-2a12-4716-a72b-9fdea7bb32bd")
+		(property "Reference" "C21"
+			(at 40.64 187.9662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 40.64 190.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "464e22f4-0c22-4271-8b4c-37d7287f167b")
+		)
+		(pin "1"
+			(uuid "3696f566-4a72-4b70-a6e7-001ee064a25e")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8ba1dfd-5e48-4cde-b9c8-07f05454eade")
+		(property "Reference" "C23"
+			(at 45.72 166.3762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 45.72 168.9162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b1ae324-d096-4b3a-9753-4a5b6560db5f")
+		)
+		(pin "1"
+			(uuid "7a9bfd6a-9860-4296-af73-3e214f9ea824")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 107.95 135.89 270)
 		(unit 1)
@@ -8330,6 +9718,123 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ME6206A15XG:ME6206A15XG")
+		(at 53.34 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef5fe1e6-0141-443c-ae52-717cb37b5f4d")
+		(property "Reference" "U8"
+			(at 61.722 173.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ME6206A15XG"
+			(at 56.896 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ME6206A15XG:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/ME6206A15XG/236149.html"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Output Type:Fixed Voltage - Supply:6V Output Voltage:1.5V Output Voltage:1.5V Output Current:100mA Power Supply Rejection Ratio (PSRR):45dB@(1kHz) Voltage Dropout:200mV@(20mA) standby current:8uA Features:Over Current Protection；Short Circuit Protection O"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ME6206A15XG"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MICRONE(南京微盟)"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C236709"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1.5V 100mA 6V"
+			(at 53.34 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49a92a0f-6a0a-4f03-8aef-679729a807d6")
+		)
+		(pin "3"
+			(uuid "489d61b9-27a0-49a8-86a3-94d812fdbc50")
+		)
+		(pin "1"
+			(uuid "32aec4df-f7c4-45a2-9e08-f255675075f3")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
+					(reference "U8")
 					(unit 1)
 				)
 			)

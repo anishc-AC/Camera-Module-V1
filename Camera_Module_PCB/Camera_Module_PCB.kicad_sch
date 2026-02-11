@@ -3530,42 +3530,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LTR-329ALS-01:LTR-329ALS-01"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "LTR-308ALS-01:LTR-308ALS-01"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 8.382 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LTR-329ALS-01"
-				(at -7.62 -12.446 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LTR-329ALS-01:IC_LTR-329ALS-01"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LTR-308ALS-01:SENSOR-SMD_6P-L2.0-W2.0-P0.65-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3574,7 +3559,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/LTR-308ALS-01/503421.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3583,216 +3568,187 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey_Part_Number" "160-2160-1-ND"
+			(property "Description" "Measurement Type:Light Intensity Photoperceptivity:157klx Interface:I2C Voltage - Supply:1.7V~3.6V Voltage - Supply:1.7V~3.6V Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTR-329ALS-01/Lite-On/view-part/?ref=snap"
+			(property "Manufacturer Part" "LTR-308ALS-01"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.7mm"
+			(property "Manufacturer" "LITEON(光宝)"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "CREATOR" "DIZAR"
+			(property "Supplier Part" "C492382"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "VDFN-4 Lite-On"
+			(property "Supplier" "LCSC"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/LTR-329ALS-01/Lite-On/view-part/?ref=eda"
+			(property "LCSC Part Name" "LTR-308ALS-01"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "VERIFIER" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Lite-On Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "LTR-329ALS-01"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Optical Sensor Ambient - I²C 4-VDFN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Lite-On Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "LTR-329ALS-01_0_0"
+			(symbol "LTR-308ALS-01_1_0"
 				(rectangle
-					(start -7.62 -10.16)
-					(end 7.62 7.62)
+					(start -6.35 -5.08)
+					(end 6.35 5.08)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin input clock
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+				(circle
+					(center -5.08 3.81)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
+					(fill
+						(type none)
 					)
 				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 12.7 5.08 180)
-					(length 5.08)
+				(pin unspecified line
+					(at -8.89 2.54 0)
+					(length 2.54)
 					(name "VDD"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -7.62 180)
-					(length 5.08)
-					(name "GND"
+				(pin unspecified line
+					(at -8.89 0 0)
+					(length 2.54)
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -8.89 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4186,6 +4142,436 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MSM261DGT003:MSM261DGT003"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MSM261DGT003:MIC-SMD_6P-L4.0-W2.0_LMD4020T261-OC3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/MSM261DGT003/50474176.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Direction:Omnidirectional Voltage - Supply:1.8V Voltage - Supply:1.8V Current Consumption:670uA Current Consumption:670uA S/N Ratio:64dB Sensitivity:-26dB Sensitivity:-26dB Length:4mm Width:2mm Height:1.1mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "MSM261DGT003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "MEMS(敏芯微)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C48227730"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "1.8V -26dB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MSM261DGT003_1_0"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "L/R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "DATA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SY7200AABC:SY7200AABC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SY7200AABC:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/datasheet/SY7200AABC/108528.html"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Type:DC-DC Voltage - Input(DC):2.8V~30V Voltage - Input(DC):2.8V~30V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:2A Dimming:PWM Features:Over Voltage Protection；Over-Temperatu"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part" "SY7200AABC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Silergy(矽力杰)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part" "C107309"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part Name" "30V高电流升压型LED驱动器"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SY7200AABC_1_0"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "LX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "OVP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "EN/PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5496,7 +5882,7 @@
 		(uuid "0b81732c-86b1-4aee-ae31-79ea07f145ba")
 	)
 	(junction
-		(at 17.78 33.02)
+		(at 17.78 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "113f04d1-f4ad-46ac-b7f8-dafeb2c47648")
@@ -5664,10 +6050,10 @@
 		(uuid "88f39b61-6188-421d-85f5-52c77d93dcd1")
 	)
 	(junction
-		(at 24.13 35.56)
+		(at 24.13 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9745b7b9-d127-4efa-ad11-f34c885add0b")
+		(uuid "a21e8df5-e19f-4c32-8843-5d559d54c322")
 	)
 	(junction
 		(at 97.79 264.16)
@@ -5692,6 +6078,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5a8efa0-9785-487e-9795-7a6852d2695c")
+	)
+	(junction
+		(at 92.71 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6f353af-c18e-4fc0-820c-da0b7fe79eba")
 	)
 	(junction
 		(at 29.21 97.79)
@@ -5786,6 +6178,10 @@
 	(no_connect
 		(at 115.57 133.35)
 		(uuid "1637abb5-5436-4001-b53d-a1aa2714ba5e")
+	)
+	(no_connect
+		(at 46.99 33.02)
+		(uuid "46b0a7e6-6a2f-4034-bff2-edf100e30590")
 	)
 	(no_connect
 		(at 255.27 102.87)
@@ -6069,6 +6465,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 33.02) (xy 29.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19115fd1-1922-45d3-b392-b779bbab18cd")
+	)
+	(wire
+		(pts
 			(xy 54.61 123.19) (xy 53.34 123.19)
 		)
 		(stroke
@@ -6116,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "1e24c605-7ba8-4a03-a3c6-5e58e5f8aeba")
-	)
-	(wire
-		(pts
-			(xy 17.78 35.56) (xy 24.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e37f331-79ed-42f5-a911-bf450c2bd851")
 	)
 	(wire
 		(pts
@@ -6216,6 +6612,16 @@
 			(type default)
 		)
 		(uuid "28bc3717-4cbf-4748-8696-7992e34d4771")
+	)
+	(wire
+		(pts
+			(xy 46.99 30.48) (xy 49.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fe12ef-6604-4918-8a33-dd952f48e188")
 	)
 	(wire
 		(pts
@@ -6319,6 +6725,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 35.56) (xy 50.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38c0f97b-348a-4b58-b619-a9167151ef07")
+	)
+	(wire
+		(pts
 			(xy 86.36 262.89) (xy 88.9 262.89)
 		)
 		(stroke
@@ -6339,6 +6755,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 35.56) (xy 92.71 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acff2f3-e5cf-4c3c-ab40-acc9c5b74b32")
+	)
+	(wire
+		(pts
 			(xy 375.92 157.48) (xy 382.27 157.48)
 		)
 		(stroke
@@ -6346,6 +6772,16 @@
 			(type default)
 		)
 		(uuid "3b4bc6cf-b687-421f-99d5-c901dea99bf9")
+	)
+	(wire
+		(pts
+			(xy 50.8 35.56) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da7e63e-70b3-4386-8bb2-2d449ccfcb3f")
 	)
 	(wire
 		(pts
@@ -6366,6 +6802,16 @@
 			(type default)
 		)
 		(uuid "40374141-f14d-4a1e-9bac-4c4c1e190f68")
+	)
+	(wire
+		(pts
+			(xy 24.13 30.48) (xy 29.21 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4127841d-3b0a-430d-a715-538008bfcf77")
 	)
 	(wire
 		(pts
@@ -6509,6 +6955,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 27.94) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f11b49a-c65a-46a1-b6b5-a6d3dd355235")
+	)
+	(wire
+		(pts
 			(xy 86.36 273.05) (xy 88.9 273.05)
 		)
 		(stroke
@@ -6526,16 +6982,6 @@
 			(type default)
 		)
 		(uuid "54938d37-aed2-4798-9155-470848914316")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 54.61 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54fc68d9-5ee5-44d3-9bc6-7d30f2703c80")
 	)
 	(wire
 		(pts
@@ -6599,6 +7045,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 27.94) (xy 24.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e254ef6-fea6-4c4a-a325-85ad4383b181")
+	)
+	(wire
+		(pts
 			(xy 386.08 83.82) (xy 393.7 83.82)
 		)
 		(stroke
@@ -6606,6 +7062,16 @@
 			(type default)
 		)
 		(uuid "5ff8078a-a12d-41b8-be11-9ccfed056a1a")
+	)
+	(wire
+		(pts
+			(xy 92.71 38.1) (xy 92.71 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "603c3fff-9ad2-4381-92b2-62ec28e3150a")
 	)
 	(wire
 		(pts
@@ -6719,7 +7185,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 30.48) (xy 17.78 33.02)
+			(xy 17.78 27.94) (xy 17.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6789,16 +7255,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 20.32) (xy 17.78 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "747e0065-d0cd-427c-a6db-ce63afd97d37")
-	)
-	(wire
-		(pts
 			(xy 97.79 262.89) (xy 97.79 264.16)
 		)
 		(stroke
@@ -6806,16 +7262,6 @@
 			(type default)
 		)
 		(uuid "769050b4-4635-4b0a-99e0-1f4634ee6c0b")
-	)
-	(wire
-		(pts
-			(xy 24.13 35.56) (xy 25.4 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77445021-8047-4e2e-a826-f80db2243d5d")
 	)
 	(wire
 		(pts
@@ -7259,7 +7705,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 33.02) (xy 17.78 33.02)
+			(xy 16.51 35.56) (xy 17.78 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7319,7 +7765,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 33.02) (xy 25.4 33.02)
+			(xy 17.78 35.56) (xy 29.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7406,16 +7852,6 @@
 			(type default)
 		)
 		(uuid "a1dd182a-a60d-493c-bced-a0db459d5513")
-	)
-	(wire
-		(pts
-			(xy 24.13 30.48) (xy 24.13 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a29641c3-77f0-4fbe-85fa-17e1160127f9")
 	)
 	(wire
 		(pts
@@ -7616,6 +8052,16 @@
 			(type default)
 		)
 		(uuid "af1c0d28-f79b-47f6-b4d0-33eb6d915890")
+	)
+	(wire
+		(pts
+			(xy 95.25 35.56) (xy 92.71 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b061289c-2db9-4316-a8bd-86d0fdbde70b")
 	)
 	(wire
 		(pts
@@ -7929,6 +8375,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 30.48) (xy 24.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc14e275-9d85-442a-913c-bdf4c07ba005")
+	)
+	(wire
+		(pts
 			(xy 99.06 199.39) (xy 100.33 199.39)
 		)
 		(stroke
@@ -8209,6 +8665,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 38.1) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46eb6f5-32e3-4860-b78e-f6b23b840112")
+	)
+	(wire
+		(pts
 			(xy 127 264.16) (xy 127 262.89)
 		)
 		(stroke
@@ -8369,6 +8835,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 30.48) (xy 49.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4786b8d-9e5d-48cb-9b86-79182d30d65a")
+	)
+	(wire
+		(pts
 			(xy 382.27 29.21) (xy 389.89 29.21)
 		)
 		(stroke
@@ -8449,16 +8925,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 20.32) (xy 24.13 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc372a6f-10f8-47ed-8b01-404b765e75d9")
-	)
-	(wire
-		(pts
 			(xy 394.97 46.99) (xy 394.97 49.53)
 		)
 		(stroke
@@ -8508,7 +8974,7 @@
 		(uuid "097fb77f-5178-45fc-af58-e843dffcabbc")
 	)
 	(label "SCL"
-		(at 16.51 33.02 180)
+		(at 16.51 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8616,6 +9082,16 @@
 			(justify right bottom)
 		)
 		(uuid "263353c6-ca82-4a1b-ae84-9a100da2bd1e")
+	)
+	(label "INT"
+		(at 25.4 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2858a66d-1279-4ca0-9975-012f15e7e154")
 	)
 	(label "SPIWP"
 		(at 242.57 93.98 180)
@@ -8748,7 +9224,7 @@
 		(uuid "46dbb9b4-67c8-41a9-bb2f-a16ae54c1a65")
 	)
 	(label "SDA"
-		(at 17.78 35.56 180)
+		(at 16.51 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9347,24 +9823,16 @@
 		)
 	)
 	(symbol
-		(lib_id "LTR-329ALS-01:LTR-329ALS-01")
+		(lib_id "LTR-308ALS-01:LTR-308ALS-01")
 		(at 38.1 33.02 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0549e184-617c-46d6-9077-103a0c10cebb")
 		(property "Reference" "Optical_Sensor1"
-			(at 38.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTR-329ALS-01"
 			(at 38.1 22.86 0)
 			(effects
 				(font
@@ -9372,17 +9840,24 @@
 				)
 			)
 		)
-		(property "Footprint" "LTR-329ALS-01:IC_LTR-329ALS-01"
+		(property "Value" "LTR-308ALS-01"
+			(at 38.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTR-308ALS-01:SENSOR-SMD_6P-L2.0-W2.0-P0.65-BL"
 			(at 38.1 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/LTR-308ALS-01/503421.html"
 			(at 38.1 33.02 0)
 			(effects
 				(font
@@ -9391,7 +9866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Measurement Type:Light Intensity Photoperceptivity:157klx Interface:I2C Voltage - Supply:1.7V~3.6V Voltage - Supply:1.7V~3.6V Operating Temperature:-40°C~+85°C Operating Temperature:-40°C~+85°C"
 			(at 38.1 33.02 0)
 			(effects
 				(font
@@ -9530,6 +10005,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "LTR-308ALS-01"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON(光宝)"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C492382"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "LTR-308ALS-01"
+			(at 38.1 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "306b8492-b772-4f50-b7fc-21cc5a713a48")
 		)
@@ -9541,6 +10061,12 @@
 		)
 		(pin "2"
 			(uuid "c970d7cd-85b7-4c18-98e0-ec80e1e6048e")
+		)
+		(pin "6"
+			(uuid "3e818802-dc0e-4b65-b998-1125d861d2f4")
+		)
+		(pin "5"
+			(uuid "0bf14b02-6434-432e-8661-01daeb78a6ca")
 		)
 		(instances
 			(project ""
@@ -10777,7 +11303,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 17.78 26.67 0)
+		(at 17.78 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10785,7 +11311,7 @@
 		(dnp no)
 		(uuid "27af4926-f2c4-443e-80e5-4b099155a87c")
 		(property "Reference" "R1"
-			(at 19.05 25.654 0)
+			(at 19.05 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10794,7 +11320,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 18.796 27.686 0)
+			(at 18.796 25.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10803,7 +11329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 18.796 26.924 90)
+			(at 18.796 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10812,7 +11338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 17.78 26.67 0)
+			(at 17.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +11347,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 17.78 26.67 0)
+			(at 17.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,6 +11706,72 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3608b59a-8df2-4137-a880-d57f8bda184c")
+		(property "Reference" "#PWR039"
+			(at 92.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d621db80-3951-4c37-96ca-e3865ee209df")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12056,7 +12648,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 24.13 26.67 0)
+		(at 24.13 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12064,7 +12656,7 @@
 		(dnp no)
 		(uuid "53637b59-57ad-4827-8148-c2e6254316ee")
 		(property "Reference" "R2"
-			(at 25.4 25.4 0)
+			(at 25.4 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12665,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 25.4 27.94 0)
+			(at 25.4 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,7 +12674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.146 26.924 90)
+			(at 25.146 24.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +12683,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 26.67 0)
+			(at 24.13 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12692,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 24.13 26.67 0)
+			(at 24.13 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,6 +14737,131 @@
 		)
 	)
 	(symbol
+		(lib_id "MSM261DGT003:MSM261DGT003")
+		(at 105.41 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95ee20ae-2e23-4bff-99ab-f2b9d37fc8d8")
+		(property "Reference" "U5"
+			(at 105.41 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSM261DGT003"
+			(at 105.41 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MSM261DGT003:MIC-SMD_6P-L4.0-W2.0_LMD4020T261-OC3"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/MSM261DGT003/50474176.html"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Direction:Omnidirectional Voltage - Supply:1.8V Voltage - Supply:1.8V Current Consumption:670uA Current Consumption:670uA S/N Ratio:64dB Sensitivity:-26dB Sensitivity:-26dB Length:4mm Width:2mm Height:1.1mm"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MSM261DGT003"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MEMS(敏芯微)"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C48227730"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "1.8V -26dB"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "381b3e5c-dc6f-4656-b0f8-c1130042524f")
+		)
+		(pin "6"
+			(uuid "f017c0f9-03a3-4624-b166-7088f82f1db0")
+		)
+		(pin "2"
+			(uuid "559cd8f4-0688-49d9-b846-daddb4e91152")
+		)
+		(pin "4"
+			(uuid "cf66b104-85ae-493d-937c-ce73ff784507")
+		)
+		(pin "3"
+			(uuid "1d35620e-d149-4d7b-ad3f-b4f6db438213")
+		)
+		(pin "5"
+			(uuid "d83afc04-275a-465e-a10e-3ca64f37b623")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
 		(at 387.35 152.4 270)
 		(unit 1)
@@ -15151,6 +15868,131 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SY7200AABC:SY7200AABC")
+		(at 106.68 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b151af71-f0f1-4a66-a81e-8fef4fbeea64")
+		(property "Reference" "U6"
+			(at 106.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY7200AABC"
+			(at 106.68 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SY7200AABC:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/datasheet/SY7200AABC/108528.html"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Type:DC-DC Voltage - Input(DC):2.8V~30V Voltage - Input(DC):2.8V~30V Frequency - Switching:1MHz Frequency - Switching:1MHz Number of Channels:1 Output Voltage:- Output Voltage:- Output Current:2A Dimming:PWM Features:Over Voltage Protection；Over-Temperatu"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SY7200AABC"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Silergy(矽力杰)"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C107309"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "30V高电流升压型LED驱动器"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "bbf7c9fe-6c09-4ba9-bed4-ecfcca3b2785")
+		)
+		(pin "3"
+			(uuid "833aab90-a562-42b6-9bf4-b6b0e939923d")
+		)
+		(pin "1"
+			(uuid "dc6d23d2-0e9d-471d-a385-7b442f285e8f")
+		)
+		(pin "2"
+			(uuid "3e48d28b-369f-415d-a536-cc14c341e330")
+		)
+		(pin "5"
+			(uuid "35723d93-6f26-4b5a-a203-0419a9b5a381")
+		)
+		(pin "4"
+			(uuid "f8184558-f5ac-460f-b0f8-a30727c3b798")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "U6")
 					(unit 1)
 				)
 			)
