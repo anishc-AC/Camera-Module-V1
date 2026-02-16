@@ -5835,7 +5835,7 @@
 	)
 	(text "Made all conections to the\nMCU, but there is still the\nissue of power. I cannot\nfind alternative regulators\nfor 2.8 & 1.5. I'm sure I\ncan find some soon tho"
 		(exclude_from_sim no)
-		(at 133.858 178.562 0)
+		(at 154.178 178.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6176,7 +6176,7 @@
 		(uuid "fc2510a6-bb85-49cd-83ac-7ec366b9a0af")
 	)
 	(no_connect
-		(at 115.57 133.35)
+		(at 135.89 133.35)
 		(uuid "1637abb5-5436-4001-b53d-a1aa2714ba5e")
 	)
 	(no_connect
@@ -6192,7 +6192,7 @@
 		(uuid "69a30f21-4bca-4869-b434-b5c56bc1375b")
 	)
 	(no_connect
-		(at 115.57 161.29)
+		(at 135.89 161.29)
 		(uuid "92a128fa-3272-4566-9605-810cc4b2ffb7")
 	)
 	(no_connect
@@ -6200,7 +6200,7 @@
 		(uuid "a71654de-2db5-4812-9165-7282c402b24d")
 	)
 	(no_connect
-		(at 140.97 161.29)
+		(at 161.29 161.29)
 		(uuid "dfea5d2c-f045-4e19-acc0-56c7623d63ac")
 	)
 	(wire
@@ -6605,7 +6605,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 156.21) (xy 146.05 156.21)
+			(xy 161.29 156.21) (xy 166.37 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6925,7 +6925,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 151.13) (xy 146.05 151.13)
+			(xy 161.29 151.13) (xy 166.37 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7125,7 +7125,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 153.67) (xy 146.05 153.67)
+			(xy 161.29 153.67) (xy 166.37 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7325,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 140.97) (xy 115.57 140.97)
+			(xy 130.81 140.97) (xy 135.89 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7465,7 +7465,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 158.75) (xy 115.57 158.75)
+			(xy 130.81 158.75) (xy 135.89 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7545,16 +7545,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 151.13) (xy 115.57 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e6fea08-a704-4375-8622-18388f633500")
-	)
-	(wire
-		(pts
 			(xy 242.57 100.33) (xy 240.03 100.33)
 		)
 		(stroke
@@ -7615,7 +7605,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 135.89) (xy 115.57 135.89)
+			(xy 130.81 135.89) (xy 135.89 135.89)
 		)
 		(stroke
 			(width 0)
@@ -7625,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 156.21) (xy 115.57 156.21)
+			(xy 130.81 156.21) (xy 135.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7645,7 +7635,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 166.37) (xy 113.03 166.37)
+			(xy 135.89 166.37) (xy 133.35 166.37)
 		)
 		(stroke
 			(width 0)
@@ -7675,7 +7665,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 154.94 133.35)
+			(xy 161.29 133.35) (xy 175.26 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7695,7 +7685,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 153.67) (xy 115.57 153.67)
+			(xy 130.81 153.67) (xy 135.89 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7905,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 166.37) (xy 113.03 172.72)
+			(xy 133.35 166.37) (xy 133.35 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7965,7 +7955,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 138.43) (xy 115.57 138.43)
+			(xy 130.81 138.43) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8125,7 +8115,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 146.05 148.59)
+			(xy 161.29 148.59) (xy 166.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8235,7 +8225,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 158.75) (xy 146.05 158.75)
+			(xy 161.29 158.75) (xy 166.37 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8275,7 +8265,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 143.51) (xy 115.57 143.51)
+			(xy 130.81 143.51) (xy 135.89 143.51)
 		)
 		(stroke
 			(width 0)
@@ -8395,7 +8385,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 146.05) (xy 146.05 146.05)
+			(xy 161.29 146.05) (xy 166.37 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8472,6 +8462,16 @@
 			(type default)
 		)
 		(uuid "d19a1285-2ba7-43bc-ac4c-b5f95f0456bf")
+	)
+	(wire
+		(pts
+			(xy 119.38 151.13) (xy 135.89 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1a9f2ee-f067-48bc-b5d8-dfd3c2d7c0e2")
 	)
 	(wire
 		(pts
@@ -8895,7 +8895,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 148.59) (xy 115.57 148.59)
+			(xy 130.81 148.59) (xy 135.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8954,7 +8954,7 @@
 		(uuid "01e70237-1efe-45cb-8932-3ac80bf6246c")
 	)
 	(label "Y9"
-		(at 146.05 146.05 0)
+		(at 166.37 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8984,7 +8984,7 @@
 		(uuid "113213cc-706e-4a08-abba-4f0c2bfafa87")
 	)
 	(label "Y7"
-		(at 146.05 151.13 0)
+		(at 166.37 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9164,7 +9164,7 @@
 		(uuid "3452383e-b000-4b0e-b91c-ef05de0fb458")
 	)
 	(label "Y5"
-		(at 146.05 156.21 0)
+		(at 166.37 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9174,7 +9174,7 @@
 		(uuid "39a06e92-1580-4238-bdc3-65b33307e2ec")
 	)
 	(label "Y4"
-		(at 146.05 158.75 0)
+		(at 166.37 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9194,7 +9194,7 @@
 		(uuid "3e55ba94-9e38-490a-80fc-6f1a07ea108b")
 	)
 	(label "VSYNC"
-		(at 110.49 140.97 180)
+		(at 130.81 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9304,7 +9304,7 @@
 		(uuid "6e391772-5733-4525-9a60-56dfb4895691")
 	)
 	(label "SCL"
-		(at 110.49 138.43 180)
+		(at 130.81 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9384,7 +9384,7 @@
 		(uuid "8776c716-cf41-4076-8cfb-1ece9f18995d")
 	)
 	(label "HSYNC"
-		(at 110.49 143.51 180)
+		(at 130.81 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9464,7 +9464,7 @@
 		(uuid "99c3f4a5-804c-47e4-a3f8-ab92b8e46ab1")
 	)
 	(label "Y2"
-		(at 110.49 156.21 180)
+		(at 130.81 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9504,7 +9504,7 @@
 		(uuid "a862e1a3-c538-4ba4-b425-a3f5bca9ff64")
 	)
 	(label "SDA"
-		(at 110.49 135.89 180)
+		(at 130.81 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9534,7 +9534,7 @@
 		(uuid "b3b86c9f-147a-4cbf-8ad0-862d5d77828f")
 	)
 	(label "Y3"
-		(at 110.49 158.75 180)
+		(at 130.81 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9544,7 +9544,7 @@
 		(uuid "b562ee27-68a2-428b-9cc7-7dc805058abc")
 	)
 	(label "XMCLK"
-		(at 110.49 148.59 180)
+		(at 130.81 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9624,7 +9624,7 @@
 		(uuid "db3e8994-ba43-4460-92de-31af637fa89f")
 	)
 	(label "Y6"
-		(at 146.05 153.67 0)
+		(at 166.37 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9694,7 +9694,7 @@
 		(uuid "e6cbe566-cb88-4bd5-9426-4e20ca4f183c")
 	)
 	(label "PCLK"
-		(at 110.49 153.67 180)
+		(at 130.81 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9714,7 +9714,7 @@
 		(uuid "eedbbf19-05d8-4993-ab40-63ea8421160f")
 	)
 	(label "Y8"
-		(at 146.05 148.59 0)
+		(at 166.37 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12375,7 +12375,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.03 172.72 0)
+		(at 133.35 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12384,7 +12384,7 @@
 		(fields_autoplaced yes)
 		(uuid "499ac748-817d-402e-955d-97aa116bd146")
 		(property "Reference" "#PWR013"
-			(at 113.03 179.07 0)
+			(at 133.35 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +12393,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 177.8 0)
+			(at 133.35 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12401,7 +12401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 172.72 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +12410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 172.72 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12419,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.03 172.72 0)
+			(at 133.35 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13861,7 +13861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 151.13 0)
+		(at 119.38 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13870,7 +13870,7 @@
 		(fields_autoplaced yes)
 		(uuid "730a4fca-b762-47b6-a981-f4e41bd9f1c5")
 		(property "Reference" "#PWR014"
-			(at 102.87 157.48 0)
+			(at 119.38 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13879,7 +13879,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 156.21 0)
+			(at 119.38 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13887,7 +13887,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 151.13 0)
+			(at 119.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13896,7 +13896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 151.13 0)
+			(at 119.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13905,7 +13905,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 151.13 0)
+			(at 119.38 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15043,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 133.35 0)
+		(at 175.26 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15052,7 +15052,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c780a36-bc15-4150-9720-10138ee3ff6b")
 		(property "Reference" "#PWR015"
-			(at 154.94 139.7 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +15061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 138.43 0)
+			(at 175.26 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15069,7 +15069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 133.35 0)
+			(at 175.26 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15078,7 +15078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 133.35 0)
+			(at 175.26 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15087,7 +15087,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 133.35 0)
+			(at 175.26 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17762,7 +17762,7 @@
 	)
 	(symbol
 		(lib_id "24 Pin FPC Connector:FFC2A32-24-T")
-		(at 128.27 148.59 0)
+		(at 148.59 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17771,7 +17771,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4adeb5d-1ced-45a6-a7a0-5e2911d0335b")
 		(property "Reference" "J3"
-			(at 128.27 125.73 0)
+			(at 148.59 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17779,7 +17779,7 @@
 			)
 		)
 		(property "Value" "FFC2A32-24-T"
-			(at 128.27 128.27 0)
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17787,7 +17787,7 @@
 			)
 		)
 		(property "Footprint" "FFC2A32-24-T:GCT_FFC2A32-24-T"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17797,7 +17797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17806,7 +17806,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17815,7 +17815,7 @@
 			)
 		)
 		(property "MF" "Global Connector Technology"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17825,7 +17825,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.25mm"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17835,7 +17835,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17845,7 +17845,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17855,7 +17855,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/FFC2A32-24-T/Global+Connector+Technology/view-part/?ref=eda"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17865,7 +17865,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17875,7 +17875,7 @@
 			)
 		)
 		(property "PARTREV" "0.1"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17885,7 +17885,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FFC2A32-24-T/Global+Connector+Technology/view-part/?ref=snap"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17895,7 +17895,7 @@
 			)
 		)
 		(property "MP" "FFC2A32-24-T"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17905,7 +17905,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4223076&manufacturer=Global Connector Technology&part_name=FFC2A32-24-T&search_term=None"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17915,7 +17915,7 @@
 			)
 		)
 		(property "Description_1" "24 Position FFC, FPC Connector Contacts, Vertical - 1 Sided 0.020 (0.50mm) Surface Mount"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17925,7 +17925,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17935,7 +17935,7 @@
 			)
 		)
 		(property "MANUFACTURER" "GCT"
-			(at 128.27 148.59 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
