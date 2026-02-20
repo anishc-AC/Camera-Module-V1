@@ -6107,7 +6107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1K"
 			(at 139.7 71.1199 0)
 			(effects
 				(font
@@ -6605,7 +6605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1K"
 			(at 148.59 71.1199 0)
 			(effects
 				(font
@@ -7783,7 +7783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1K"
 			(at 157.48 71.1199 0)
 			(effects
 				(font
