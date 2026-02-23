@@ -9115,7 +9115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdaf59dc-db64-4f27-81fd-619eba66e919")
-		(property "Reference" "3V8_R1"
+		(property "Reference" "2V8_R1"
 			(at 50.8 142.24 0)
 			(effects
 				(font
@@ -9215,7 +9215,7 @@
 		(instances
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33/097e721d-c536-4567-9b5e-193861a3bee4"
-					(reference "3V8_R1")
+					(reference "2V8_R1")
 					(unit 1)
 				)
 			)
