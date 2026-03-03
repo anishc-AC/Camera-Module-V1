@@ -1966,6 +1966,119 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Antenna"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at -1.905 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_1_1"
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5115,6 +5228,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6458,6 +6654,18 @@
 		(uuid a4261f68-ab66-464c-923a-172b09d00405)
 	)
 	(rectangle
+		(start 175.26 129.54)
+		(end 250.19 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae8f6562-2583-45b9-8975-d07d8639d87b)
+	)
+	(rectangle
 		(start 332.74 41.91)
 		(end 358.14 66.04)
 		(stroke
@@ -6649,6 +6857,16 @@
 		)
 		(uuid "8eabc006-42d0-4dd2-8ba9-f80395acdc13")
 	)
+	(text "2.4GHz antenna needs\n at least 15mm keepout\nzone around it"
+		(exclude_from_sim no)
+		(at 186.944 164.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8fbc7e22-578c-4f60-b310-0a8c2435fb36")
+	)
 	(text "Speakers(Class D)\nI believe gain is connected\nto the ESP32 GPIO so that \nwe can control the gain of\nthe amplifier."
 		(exclude_from_sim no)
 		(at 230.124 236.728 0)
@@ -6728,6 +6946,16 @@
 		)
 		(uuid "d52e3f6a-3331-491a-96ac-1e0084a88e4c")
 	)
+	(text "RF Control Circuit\n"
+		(exclude_from_sim no)
+		(at 185.166 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9b4f90e-f7f3-4d3a-8762-bf11bc04f785")
+	)
 	(text "Be sure to place EP\non a GROUND filled\nzone for power dis\n"
 		(exclude_from_sim no)
 		(at 259.334 238.506 0)
@@ -6759,6 +6987,16 @@
 			)
 		)
 		(uuid "e778e134-285e-43c4-be70-024a8a562af1")
+	)
+	(text "RF traces are in orange.\nThe capacitor filter\nis based off of an RF\nconfiguration made by\na company."
+		(exclude_from_sim no)
+		(at 218.694 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7e5e900-4e15-435f-aa51-9a73e727c1d0")
 	)
 	(text "Amplifier for Speaker "
 		(exclude_from_sim no)
@@ -6951,6 +7189,12 @@
 		(uuid "67980401-ca27-470e-8b72-28b61fef0a60")
 	)
 	(junction
+		(at 201.93 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a8f166a-5660-4add-b2d9-f99594b71c69")
+	)
+	(junction
 		(at 116.84 243.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7101,6 +7345,12 @@
 		(uuid "b5a8efa0-9785-487e-9795-7a6852d2695c")
 	)
 	(junction
+		(at 209.55 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5b1d938-7d4b-43c8-872c-714182239c8f")
+	)
+	(junction
 		(at 383.54 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7153,6 +7403,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cad85566-f31e-474c-9382-6c15a7f1daeb")
+	)
+	(junction
+		(at 217.17 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cafdf8c1-a668-4bf0-9e47-6beaf3802118")
 	)
 	(junction
 		(at 59.69 162.56)
@@ -7359,6 +7615,16 @@
 	(no_connect
 		(at 278.13 205.74)
 		(uuid "fc40a2d5-a6d2-4218-ba63-b324627d6621")
+	)
+	(wire
+		(pts
+			(xy 201.93 154.94) (xy 201.93 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "007f5b78-171a-4282-9ea1-dfe8a869f544")
 	)
 	(wire
 		(pts
@@ -7909,6 +8175,16 @@
 			(type default)
 		)
 		(uuid "205aa39e-5406-43e4-9947-51ba762c7175")
+	)
+	(wire
+		(pts
+			(xy 212.09 154.94) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219593e0-c84a-4fb1-8eb3-a7a64b5b65fa")
 	)
 	(wire
 		(pts
@@ -8872,6 +9148,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 49.53) (xy 250.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6572589e-1b39-429f-860a-5d34461b331d")
+	)
+	(wire
+		(pts
 			(xy 111.76 90.17) (xy 111.76 92.71)
 		)
 		(stroke
@@ -8999,6 +9285,17 @@
 			(type default)
 		)
 		(uuid "72566382-f244-4a79-b931-46b2946941fd")
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94) (xy 187.96 153.67)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 140 75 1)
+		)
+		(uuid "725a8845-dc45-4f70-ad76-96a87f62f259")
 	)
 	(wire
 		(pts
@@ -9242,6 +9539,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 162.56) (xy 201.93 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864d767d-f92b-41df-8417-da558027ee23")
+	)
+	(wire
+		(pts
 			(xy 153.67 171.45) (xy 157.48 171.45)
 		)
 		(stroke
@@ -9369,6 +9676,27 @@
 			(type default)
 		)
 		(uuid "8bf27816-d85f-4ba4-a5e3-c8cd85a0ebbb")
+	)
+	(wire
+		(pts
+			(xy 187.96 154.94) (xy 201.93 154.94)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 140 75 1)
+		)
+		(uuid "8c0cf423-627e-4c3b-a3ce-e195fe26a888")
+	)
+	(wire
+		(pts
+			(xy 207.01 154.94) (xy 201.93 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c865cf6-271e-4416-8a2a-8927c7d3a377")
 	)
 	(wire
 		(pts
@@ -9539,6 +9867,16 @@
 			(type default)
 		)
 		(uuid "95be6711-30a7-4690-918d-d882672563de")
+	)
+	(wire
+		(pts
+			(xy 209.55 165.1) (xy 217.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960d54e3-bc5c-465a-ab83-b7c21ecf7968")
 	)
 	(wire
 		(pts
@@ -10372,6 +10710,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 157.48) (xy 217.17 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5964acb-3395-463f-befc-2f294e0e35bd")
+	)
+	(wire
+		(pts
 			(xy 240.03 99.06) (xy 234.95 99.06)
 		)
 		(stroke
@@ -10539,6 +10887,16 @@
 			(type default)
 		)
 		(uuid "cd6dc5fa-96fb-4c9c-9b59-5bb4a0515a9a")
+	)
+	(wire
+		(pts
+			(xy 217.17 162.56) (xy 217.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbabdf2-d215-449f-9d07-62deb5ac9b1a")
 	)
 	(wire
 		(pts
@@ -11102,6 +11460,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 165.1) (xy 209.55 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc0f520-c765-4503-a25c-3cb9aded2cd3")
+	)
+	(wire
+		(pts
 			(xy 304.8 29.21) (xy 300.99 29.21)
 		)
 		(stroke
@@ -11199,6 +11567,17 @@
 			(type default)
 		)
 		(uuid "f7067c3d-215d-423d-afd0-dcb581843560")
+	)
+	(wire
+		(pts
+			(xy 217.17 154.94) (xy 229.87 154.94)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 140 75 1)
+		)
+		(uuid "f88330d0-ce92-4a7a-96f6-a67bda41e64b")
 	)
 	(wire
 		(pts
@@ -11530,6 +11909,16 @@
 		)
 		(uuid "3e55ba94-9e38-490a-80fc-6f1a07ea108b")
 	)
+	(label "LNA_IN"
+		(at 247.65 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3eead506-d0a2-4bed-9dd3-f2302bf2bf00")
+	)
 	(label "VSYNC"
 		(at 30.48 201.93 180)
 		(effects
@@ -11659,6 +12048,16 @@
 			(justify right bottom)
 		)
 		(uuid "6978d3c5-7808-407d-9305-fbd1836c3485")
+	)
+	(label "LNA_IN"
+		(at 229.87 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f338048-5e75-420e-9616-12195598c907")
 	)
 	(label "SCL"
 		(at 30.48 199.39 180)
@@ -12984,6 +13383,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b5a5335-a8e8-4013-a739-75ab5aa85715")
+		(property "Reference" "H2"
+			(at 273.05 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 270.51 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 115.57 90)
 		(unit 1)
@@ -14200,6 +14663,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d26bef7-b64f-4dd1-b3a0-f25589642305")
+		(property "Reference" "H1"
+			(at 273.05 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 270.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 270.51 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 46.99 92.71 90)
 		(unit 1)
@@ -15209,6 +15736,74 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 209.55 154.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30c7a497-4766-483c-8d5d-98837c6fe19d")
+		(property "Reference" "C36"
+			(at 209.5563 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1pF"
+			(at 209.5563 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "430882aa-4cde-4434-9625-b94cc7c327b4")
+		)
+		(pin "1"
+			(uuid "ab7246cb-68c0-4b84-be95-13a5c1172c22")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 393.7 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16006,6 +16601,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "493e86e9-a0eb-4aea-a622-eb7a25690100")
+		(property "Reference" "H3"
+			(at 273.05 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 270.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 270.51 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 228.6 0)
 		(unit 1)
@@ -16679,6 +17338,76 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 201.93 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58bb89a6-d90d-4c3c-8192-52969b0caae7")
+		(property "Reference" "C22"
+			(at 204.47 158.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NG"
+			(at 204.47 161.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93983694-6790-4cb9-bff6-55d041c1a754")
+		)
+		(pin "1"
+			(uuid "1a09713a-5d14-483b-acbe-41045d217250")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -20708,6 +21437,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 270.51 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b65cb047-33a1-42ab-b26e-f0f47866c4d2")
+		(property "Reference" "H4"
+			(at 273.05 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 273.05 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm"
+			(at 270.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 270.51 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 198.12 60.96 0)
 		(unit 1)
@@ -20902,6 +21695,76 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 217.17 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be0d7543-eb08-455a-82b1-cc7c26ede170")
+		(property "Reference" "C23"
+			(at 219.71 158.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.8pF"
+			(at 219.71 161.2962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 217.17 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e4b156df-1e42-40e4-b183-0f78c57278f4")
+		)
+		(pin "1"
+			(uuid "bfd372ca-0087-4a16-9a67-31256bc10126")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -22957,6 +23820,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Antenna")
+		(at 187.96 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee6de5a7-5967-432e-b010-c482924e850c")
+		(property "Reference" "AE1"
+			(at 190.754 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 191.008 151.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna"
+			(at 187.96 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aab983e-7e1d-4854-a8af-be4607384ffb")
+		)
+		(instances
+			(project ""
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "TPD4E02B04DQAR_1")
 		(lib_id "TPD4E02B04DQAR (TVS Diodes):TPD4E02B04DQAR")
 		(at 33.02 132.08 0)
@@ -23697,6 +24626,73 @@
 			(project ""
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 209.55 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff38c5f0-6bf1-401d-942b-d381cb41012e")
+		(property "Reference" "#PWR064"
+			(at 209.55 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0260ba09-eed3-4acf-9175-7d3465eb5ce7")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
