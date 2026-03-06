@@ -6779,6 +6779,16 @@
 		)
 		(uuid "33b9132a-4599-4956-a452-7cfe16f40726")
 	)
+	(text "Remember to give\nLEDs a part number\ncorresponding to\nthe color and size we \nwant"
+		(exclude_from_sim no)
+		(at 149.352 256.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34a84a60-162d-4c28-b578-46094bb2554d")
+	)
 	(text "Optical Sensor\n"
 		(exclude_from_sim no)
 		(at 23.368 17.78 0)
