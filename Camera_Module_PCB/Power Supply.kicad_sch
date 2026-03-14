@@ -4543,6 +4543,16 @@
 		)
 		(uuid "473f9598-f389-4f26-8248-be672a829b42")
 	)
+	(text "Ensure current is fine for\nLED pins\n"
+		(exclude_from_sim no)
+		(at 147.828 93.218 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "752cf1a9-0a77-4f66-b0bd-4473e9909788")
+	)
 	(text "2 Pin connector for battery.\nUse Phoenix connector."
 		(exclude_from_sim no)
 		(at 310.134 61.214 0)

@@ -6924,7 +6924,8 @@
 		(end 401.32 120.65)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 255 0 0 1)
 		)
 		(fill
 			(type none)
@@ -6936,7 +6937,8 @@
 		(end 250.19 168.91)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 250 0 0 1)
 		)
 		(fill
 			(type none)
@@ -6948,7 +6950,8 @@
 		(end 358.14 66.04)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 250 0 0 1)
 		)
 		(fill
 			(type none)
@@ -6984,7 +6987,8 @@
 		(end 401.32 66.04)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
+			(color 251 0 0 1)
 		)
 		(fill
 			(type none)
@@ -7047,12 +7051,13 @@
 		)
 		(uuid "30ac1476-ab04-44ed-809b-a3c604cd2c11")
 	)
-	(text "XMCLK is the MCLK input signal\nderived from the 40MHz crystal\nin XTAL"
+	(text "These other elements \nare part of filtering\nand decoupling.\n"
 		(exclude_from_sim no)
-		(at 320.548 59.944 0)
+		(at 323.85 52.324 0)
 		(effects
 			(font
 				(size 0.762 0.762)
+				(color 255 0 0 1)
 			)
 		)
 		(uuid "33b9132a-4599-4956-a452-7cfe16f40726")
