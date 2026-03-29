@@ -7436,6 +7436,12 @@
 		(uuid "17c08554-a3b4-49ca-86aa-9edcc115d723")
 	)
 	(junction
+		(at 321.31 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19e37225-d019-4af6-a5a3-1602f886ebeb")
+	)
+	(junction
 		(at 20.32 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7470,6 +7476,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40cebda1-4c3c-486c-90ed-35259140c2f1")
+	)
+	(junction
+		(at 321.31 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4314df2c-52f1-4d24-a834-e999d0d77c8c")
 	)
 	(junction
 		(at 85.09 105.41)
@@ -8441,6 +8453,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 90.17) (xy 321.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17896c3e-6c2a-4062-b692-04596937d508")
+	)
+	(wire
+		(pts
 			(xy 21.59 82.55) (xy 21.59 85.09)
 		)
 		(stroke
@@ -8881,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 87.63) (xy 306.07 87.63)
+			(xy 300.99 87.63) (xy 311.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -9942,6 +9964,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 95.25) (xy 321.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860b57ad-3954-4737-9683-336d4d22d3e7")
+	)
+	(wire
+		(pts
 			(xy 340.36 29.21) (xy 340.36 31.75)
 		)
 		(stroke
@@ -10059,6 +10091,16 @@
 			(type default)
 		)
 		(uuid "8b816b0a-1644-43ee-b751-0a4132233c61")
+	)
+	(wire
+		(pts
+			(xy 321.31 90.17) (xy 327.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be94de2-3645-4f0e-b846-26022fb81bb6")
 	)
 	(wire
 		(pts
@@ -11493,7 +11535,7 @@
 	)
 	(wire
 		(pts
-			(xy 300.99 90.17) (xy 306.07 90.17)
+			(xy 300.99 90.17) (xy 311.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -11590,6 +11632,16 @@
 			(type default)
 		)
 		(uuid "dc8708b4-8054-4f20-b281-72af8bd43939")
+	)
+	(wire
+		(pts
+			(xy 318.77 87.63) (xy 321.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8dee2a-123a-4246-bbfc-2a87805670a5")
 	)
 	(wire
 		(pts
@@ -11843,6 +11895,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 87.63) (xy 327.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaa1289-004b-46c6-af6f-3abc12341d06")
+	)
+	(wire
+		(pts
 			(xy 246.38 64.77) (xy 250.19 64.77)
 		)
 		(stroke
@@ -11890,6 +11952,16 @@
 			(type default)
 		)
 		(uuid "f08731c5-243d-4862-bc06-43bd1a4ae6cf")
+	)
+	(wire
+		(pts
+			(xy 321.31 80.01) (xy 321.31 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28f2219-a872-459e-9f0b-0b8c040279e6")
 	)
 	(wire
 		(pts
@@ -12182,6 +12254,16 @@
 		)
 		(uuid "2b95f5f6-8e95-446d-86e1-100694a53f11")
 	)
+	(label "USB_D-"
+		(at 327.66 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c43cbf0-e0cc-4c6e-b4b1-3c3c59abc80b")
+	)
 	(label "VSYNC"
 		(at 307.34 46.99 0)
 		(effects
@@ -12352,16 +12434,6 @@
 		)
 		(uuid "4d7cc995-7b06-47d6-bf42-dae8bc91d420")
 	)
-	(label "USB_D+"
-		(at 306.07 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54337783-747c-4f44-b0a5-c85b78fd5bf5")
-	)
 	(label "SPICLK"
 		(at 181.61 107.95 180)
 		(effects
@@ -12391,6 +12463,16 @@
 			(justify right bottom)
 		)
 		(uuid "5a9bc2e2-68e3-46b3-bf93-1393167fcaee")
+	)
+	(label "USB_D+"
+		(at 327.66 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c65d93e-5ae4-4f1d-b9c0-669f5856383d")
 	)
 	(label "LED_CT"
 		(at 40.64 262.89 180)
@@ -12681,16 +12763,6 @@
 			(justify right bottom)
 		)
 		(uuid "ac599251-98f9-4e6e-9ca1-ee902a88526a")
-	)
-	(label "USB_D-"
-		(at 306.07 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af932742-5b3d-442b-a726-8cb71a0e2d98")
 	)
 	(label "Y8"
 		(at 57.15 123.19 180)
@@ -17983,7 +18055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NG"
+		(property "Value" "NC"
 			(at 204.47 161.2962 0)
 			(effects
 				(font
@@ -18368,6 +18440,76 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 321.31 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63a55b46-3948-4784-97a9-8de7933279ca")
+		(property "Reference" "C31"
+			(at 323.85 91.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NC"
+			(at 323.85 93.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 321.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 321.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6cd1bbdc-eba8-4521-97ec-36511a2e0599")
+		)
+		(pin "1"
+			(uuid "ce144028-54c0-45a7-98bd-fe2fbd1a3e17")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -19038,6 +19180,73 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 321.31 80.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72081f27-76c1-4aee-aac7-4304d9de0031")
+		(property "Reference" "#PWR069"
+			(at 321.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 321.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "746b5dbc-c125-4f6d-944d-4f69950a3df4")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -21559,6 +21768,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 321.31 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9b538f2-7284-4f69-9881-1eb890c2af0a")
+		(property "Reference" "C37"
+			(at 323.85 83.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NC"
+			(at 323.85 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 321.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 321.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 321.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47862a2a-209d-4dae-b442-2781a6640bd3")
+		)
+		(pin "1"
+			(uuid "cb4e8457-9e1d-4dba-a930-8bd4fe486aaf")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 372.11 86.36 0)
 		(unit 1)
@@ -22061,6 +22340,73 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 314.96 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b639b2ff-c2f8-44ba-a1bd-60e76adb8e3a")
+		(property "Reference" "R18"
+			(at 315.214 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 315.214 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 315.214 89.154 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 314.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33e7e935-5724-4a5f-9ed1-1aa965f1ad44")
+		)
+		(pin "1"
+			(uuid "578e6212-bb85-4bc9-8d0a-231d01fec0f7")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -23963,6 +24309,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 321.31 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dea2715c-c42e-4ac7-bb1c-ff9670638c1b")
+		(property "Reference" "#PWR068"
+			(at 321.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 321.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "893bad61-6f36-44c6-acfd-49f31880f9ed")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 351.79 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25248,6 +25661,74 @@
 			(project "Camera_Module_PCB"
 				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 314.96 87.63 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe8c29e9-a382-4fdd-b32a-818d03df457d")
+		(property "Reference" "R19"
+			(at 315.214 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 315.214 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 315.214 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 314.96 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "344c6dbb-7241-47ce-a66c-31124746192e")
+		)
+		(pin "1"
+			(uuid "608b9a2d-6c52-4a6f-863a-b735ce88fde9")
+		)
+		(instances
+			(project "Camera_Module_PCB"
+				(path "/e3d5a9d6-7dc8-43b3-bd64-189ae9cbab33"
+					(reference "R19")
 					(unit 1)
 				)
 			)
