@@ -9628,7 +9628,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "V_OUT_BM"
 			(at 25.4 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10326,7 +10326,7 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "V_OUT_BM"
 			(at 62.23 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
